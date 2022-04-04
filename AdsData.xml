@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>~/images/google.jpg</ImageUrl>
+		<NavigateUrl>http://www.google.com</NavigateUrl>
+		<AlternateText>Please visit the URL http://www.google.com </AlternateText>
+		<Keyword>Google</Keyword>
+		<Impressions>30</Impressions>
+
+	</Ad>
+	<Ad>
+		<ImageUrl>~/images/utu.gif</ImageUrl>
+		<NavigateUrl>http://www.utu.ac.in</NavigateUrl>
+		<AlternateText>Please visit the URL http://www.utu.ac.in </AlternateText>
+		<Keyword>utu</Keyword>
+		<Impressions>10</Impressions>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/images/youtube.png</ImageUrl>
+		<NavigateUrl>http://www.youtube.com</NavigateUrl>
+		<AlternateText>Please visit the URL http://www.youtube.com </AlternateText>
+		<Keyword>Google</Keyword>
+		<Impressions>20</Impressions>
+	</Ad>
+</Advertisements>

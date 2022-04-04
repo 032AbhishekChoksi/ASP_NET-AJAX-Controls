@@ -67,11 +67,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdRotatorControl.aspx" />
+    <Content Include="AdsData.xml" />
+    <Content Include="images\google.jpg" />
+    <Content Include="images\utu.gif" />
+    <Content Include="images\youtube.png" />
     <Content Include="TimerControl.aspx" />
     <Content Include="UpdatePannelControl.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdRotatorControl.aspx.cs">
+      <DependentUpon>AdRotatorControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdRotatorControl.aspx.designer.cs">
+      <DependentUpon>AdRotatorControl.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TimerControl.aspx.cs">
       <DependentUpon>TimerControl.aspx</DependentUpon>
