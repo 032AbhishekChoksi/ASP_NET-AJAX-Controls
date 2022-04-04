@@ -67,11 +67,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="TimerControl.aspx" />
     <Content Include="UpdatePannelControl.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TimerControl.aspx.cs">
+      <DependentUpon>TimerControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TimerControl.aspx.designer.cs">
+      <DependentUpon>TimerControl.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UpdatePannelControl.aspx.cs">
       <DependentUpon>UpdatePannelControl.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
